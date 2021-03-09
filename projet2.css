@@ -1,5 +1,12 @@
 #section1
 {
 	display: flex;
+	flex-direction: row-reverse  ;
 }
+
+#hebergement1, #hebergement2
+{
+	display: flex;
+}
+
 
