@@ -2,19 +2,31 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+	
+}
 
+header
+{
+	color: F2F2F2;
+}
+
+#bloc_page
+{
+	margin-left: 5% ;
+	margin-right: 5%;
 }
 
 #logo
 {
-	width: 10%;
+	width: 5em;
 	
 }
 
-#Sinscrire
+#S_inscrire
 {
 	float: right;
 }
+
 
 
  nav ul
@@ -25,16 +37,34 @@ body
 
 nav li
 {
-	margin-right: 15px;
+	margin-right: 100px;
+	margin-left: -20px;
+}
+
+a
+{
+text-decoration: none;
+}
+
+footer li
+{
+	list-style: none;
 }
 
 
 
 @media all and (min-width: 991px)
-
-
-
 {
+
+
+#logomenu
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
 #section1
 {
 	display: flex;
@@ -63,8 +93,8 @@ nav li
 {
 	display: flex;
 	flex-direction: column ;
+	background-color: #F2F2F2
 }
-
 
 
 #Titreh1suphebergement2
@@ -79,10 +109,23 @@ nav li
 	width: 80%;
 	height: 100%;
 	margin: auto;
-
-
 }
 
+.Trouvez
+{
+	display: inline;
+}
+
+#footer
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+h4
+{
+	margin-left: 12px;
+}
 
 }
 	

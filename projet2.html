@@ -10,24 +10,29 @@
 	
 </head>
 <body>
-	<div id="bloc_page">
+	<div id="bloc_page"> <!--contenu de body moins le footer-->
 		<header> <!-- Contenu du haut de page avec logo nav titre-->
-            <div id="logoinscription">
+        <div id="logoinscription">
 			   
-			   <div id="Sinscrire"><a href="pageinscription.com"><p>S'inscrire</p></a></div>
-			   <div><img src="logoreservia.png" alt="logo reservia" id="logo"/></div>
+			    <div id="S_inscrire" ><a href="pageinscription.com"><p><b>S'inscrire</b></p></a></div>
 
-			   <nav>
-				   <ul>
-			          <li> <a href="#section1">Hébergements</a> </li> 
-		              <li> <a href="#section2">Activités</a> </li> 
-			       </ul>
-			   </nav>
-				
+			<div id="logomenu">   
+			   <div id="logomarge"><img src="logoreservia.png" alt="logo reservia" id="logo"/></div>
+
+			   <div>
+			      <nav>
+				      <ul>
+			             <li> <a href="#section1"><b>Hébergements</b></a> </li> 
+		                 <li> <a href="#section2"><b>Activités</b></a> </li> 
+			          </ul>
+			      </nav>
+			   </div>
+			   
+			</div>
 			
 			   
-		    </div> 
-			<h2>Trouvez votre hébergement pour des vacances de rêves</h2>
+		</div> 
+			<h2><div class="Trouvez">Trouvez votre hébergement</div><div class="Trouvez"> pour des vacances de rêve</div></h2>
 			<p>En plein centre-ville ou en pleine nature</p>
 
 			<form method="POST" action="traitement.php">
@@ -48,7 +53,7 @@
 			<section id="section1"> <!-- Partie hébergement + pop-->
 				
 
-				<div id="suphebergement1"> <!-- Les + Pop -->
+				<div id="suphebergement1" style="background-color: #F2F2F2"> <!-- Les + Pop -->
 					<h1>Les plus populaires</h1> 
 
 					   <div class="hebergement1" style="background-image: url(le_soleil_du_matin.jpg);">  <h3> Hôtel le soleil du matin</h3> <p>Nuit à partir de 128€ </p> </div>
@@ -86,8 +91,28 @@
 
     </div>
 	
-		<footer> <!-- Pied de page-->
+		<footer id="footer" style="background-color: #F2F2F2"> <!-- Pied de page-->
+			<div> <h4>A propos</h4>
+			   <ul>
+				   <li>Fonctionnement du site</li>
+				   <li>Conditions générales de vente</li>
+				   <li>Données et confidentialité</li>
+			   </ul>
+			</div>
+
+			<div> <p>Nos hébergements</p>
+				<ul>
+					<li>Charte qualité</li>
+					<li>Soumettre votre hôtel</li>
+				</ul>
+			</div>
 			
+			<div> <p>Assistance</p>  
+                <ul>
+					<li>Centre d'aide</li>
+					<li>Nous contacter</li>
+				</ul>
+			</div>
             
 
 		</footer>
