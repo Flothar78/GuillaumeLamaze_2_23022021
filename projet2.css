@@ -5,35 +5,63 @@ body
 
 }
 
+@media all and (min-width: 991px)
+
+{
 #section1
 {
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .hebergement1
 {
-	
+	width: 250px;
+	height: 120px;
+	display: flex;	
+	margin: 30px;
 }
 
 .hebergement2
 {
 	width: 200px;
 	height: 120px;
-	display: inline-block;
+	display: flex;
 	margin: 10px;
 	
-	position: relative;
-	
 }
-	
 
-
-p, h3
+#suphebergement2
 {
-	
+	display: flex;
+	flex-direction: column ;
 }
+
+
+
+#Titreh1suphebergement2
+{
+    margin-left: 11%;
+}
+
+#suphebergement21
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+
+
+}
+
+
+}
+	
+
+
+
 
 
 
