@@ -5,7 +5,34 @@ body
 
 }
 
+#logo
+{
+	width: 10%;
+	
+}
+
+#Sinscrire
+{
+	float: right;
+}
+
+
+ nav ul
+{
+	display: flex;
+	list-style-type: none; 
+}
+
+nav li
+{
+	margin-right: 15px;
+}
+
+
+
 @media all and (min-width: 991px)
+
+
 
 {
 #section1
