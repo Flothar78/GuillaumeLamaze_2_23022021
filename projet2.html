@@ -1,136 +1,198 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title> Reservia</title>
 	<meta charset="utf-8" />
-    <link rel="stylesheet" href="projet2.css" />
-	
-	
-	
-	
+	<link rel="stylesheet" href="projet2.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
 </head>
+
 <body>
-	<div id="bloc_page"> <!--contenu de body moins le footer-->
-		<header> <!-- Contenu du haut de page avec logo nav titre-->
-        <div id="logoinscription">
-			   
-			    <div id="S_inscrire" ><a href="pageinscription.com"><p><b>S'inscrire</b></p></a></div>
+	<div id="bloc_page">
+		<!--contenu de body moins le footer-->
+		<header>
+			<!-- Contenu du haut de page avec logo nav titre-->
+			<div id="logoinscription">
 
-			<div id="logomenu">   
-			   <div id="logomarge"><img src="logoreservia.png" alt="logo reservia" id="logo"/></div>
+				<div id="S_inscrire"><a href="pageinscription.com">
+						<p><b>S'inscrire</b></p>
+					</a></div>
 
-			   <div>
-			      <nav>
-				      <ul>
-			             <li> <a href="#section1"><b>Hébergements</b></a> </li> 
-		                 <li> <a href="#section2"><b>Activités</b></a> </li> 
-			          </ul>
-			      </nav>
-			   </div>
-			   
+				<div id="logomenu">
+
+					<div id="logomarge"><img src="logoreservia.png" alt="logo reservia" id="logo" /></div>
+
+					<div>
+						<nav>
+							<ul>
+								<li> <a href="#section1"><b>Hébergements</b></a> </li>
+								<li> <a href="#section2"><b>Activités</b></a> </li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+
 			</div>
-			
-			   
-		</div> 
-			<h2><div class="Trouvez">Trouvez votre hébergement</div><div class="Trouvez"> pour des vacances de rêve</div></h2>
+
+			<h2>
+				<div class="Trouvez">Trouvez votre hébergement</div>
+				<div class="Trouvez"> pour des vacances de rêve</div>
+			</h2>
 			<p>En plein centre-ville ou en pleine nature</p>
 
 			<form method="POST" action="traitement.php">
-				<p><input type="text" name="ville" placeholder="Marseille, France" />  </p>
-			 </form>
-        
+				<p><input type="text" name="ville" placeholder="Marseille, France" /> </p>
+			</form>
 
 
 
 
-			
+
+
 		</header>
 
-		<main> <!-- Partie principale et centrale avec photos-->
-
-			    
-			
-			<section id="section1"> <!-- Partie hébergement + pop-->
-				
-
-				<div id="suphebergement1" style="background-color: #F2F2F2"> <!-- Les + Pop -->
-					<h1>Les plus populaires</h1> 
-
-					   <div class="hebergement1" style="background-image: url(le_soleil_du_matin.jpg);">  <h3> Hôtel le soleil du matin</h3> <p>Nuit à partir de 128€ </p> </div>
-					   <div class="hebergement1" style="background-image: url(au_coeur_de_leau.jpg);">  <h3>Au coeur de l'eau Chambres d'hôtes</h3> <p>Nuit à partir de 71€ </p></div>
-                       <div class="hebergement1" style="background-image: url(Hotel_tout_bleu_et_blanc.jpg);">  <h3>Hôtel Tout bleu et blanc </h3> <p>Nuit à partir de 68€ </p></div>
- 
-				</div>
+		<main>
+			<!-- Partie principale et centrale avec photos-->
 
 
 
-				<div id="suphebergement2"> <!-- Hébergement -->
+			<section id="section1">
+				<!-- Partie hébergement + pop-->
+
+
+				<aside id="suphebergement1">
+					<!-- Les + Pop -->
+					<h1>Les plus populaires</h1>
+
+					<figure> <img src="le_soleil_du_matin.jpg" alt="Le soleil du matin"> </figure>
+					<div class="hebergement1" style="background-image: url(au_coeur_de_leau.jpg);">
+						<h3>Au coeur de l'eau Chambres d'hôtes</h3>
+						<p>Nuit à partir de 71€ </p>
+					</div>
+					<div class="hebergement1" style="background-image: url(Hotel_tout_bleu_et_blanc.jpg);">
+						<h3>Hôtel Tout bleu et blanc </h3>
+						<p>Nuit à partir de 68€ </p>
+					</div>
+
+				</aside>
+
+
+
+				<div id="suphebergement2">
+					<!-- Hébergement -->
 					<h1 id="Titreh1suphebergement2">Hébergements à Marseille</h1>
 					<div id="suphebergement21">
 
-					   <div class="hebergement2" style="background-image: url(Auberge_la_Cannebiere.jpg);" >  <h3>Auberge la Cannebière</h3> <p>Nuit à partir de 25€</p>  </div>
-					   <div class="hebergement2" style="background-image: url(hotel_du_port.jpg);">  <h3>Hôtel du port</h3> <p>Nuit à partir de 52€</p>   </div>
-					   <div class="hebergement2" style="background-image: url(Hotel_les_mouettes.jpg);">  <h3>Hôtel Les mouettes</h3> <p>Nuit à partir de 76€</p> </div>
-					   <div class="hebergement2" style="background-image: url(Hôtel_de_la_mer.jpg);">  <h3>Hôtel de la mer</h3> <p>Nuit à partir de 46€</p> </div>
-					   <div class="hebergement2" style="background-image: url(Auberge_Le_Panier.jpg);">   <h3>Auberge Le Panier</h3> <p>Nuit à partir de 23€</p> </div>
-					   <div class="hebergement2" style="background-image: url(chez-amina.jpg);">  <h3>Hôtel chez Amina</h3> <p>Nuit à partir de 96€</p> </div>
-					</div>  
+						<figure>
+							<img src="Auberge_la_Cannebiere.jpg" alt="Auberge la Cannebière" />
+							<figcaption>
+								<b>Auberge la Cannebière</b>
+								<p>Nuit à partir de 25€</p>
+							</figcaption>
+						</figure>
 
-					
+						<figure class="cartes_hebergement"> <img src="hotel_du_port.jpg" alt="Hôtel du port" />
+							<figcaption>
+								<h3>Hôtel du port</h3>
+								<p>Nuit à partir de 52€</p>
+							</figcaption>
+						</figure>
+
+						<figure class="cartes_hebergement"> <img src="Hotel_les_mouettes.jpg"
+								alt="Hôtel les mouettes" />
+							<figcaption>
+								<h3>Hôtel Les mouettes</h3>
+								<p>Nuit à partir de 76€</p>
+							</figcaption>
+						</figure>
+
+						<figure class="cartes_hebergement"> <img src="Hôtel_de_la_mer.jpg" alt="Hôtel de la mer" />
+							<figcaption>
+								<h3>Hôtel de la mer</h3>
+								<p>Nuit à partir de 46€</p>
+							</figcaption>
+						</figure>
+
+						<figure class="cartes_hebergement"> <img src="Auberge_Le_Panier.jpg" alt="Auberge Le Panier" />
+							<figcaption>
+								<h3>Auberge Le Panier</h3>
+								<p>Nuit à partir de 23€</p>
+							</figcaption>
+						</figure>
+
+						<figure class="cartes_hebergement"> <img src="chez-amina.jpg" alt="Hôtel chez Amina" />
+							<figcaption>
+								<h3>Hôtel chez Amina</h3>
+								<p>Nuit à partir de 96€</p>
+							</figcaption>
+						</figure>
+					</div>
+
+
 				</div>
 
-				
+
 			</section>
 
-			<section id="section2"> <!-- Partie Activités-->
+			<section id="section2">
+				<!-- Partie Activités-->
 
 
-				
+
 			</section>
 		</main>
 
-    </div>
-	
-		<footer id="footer" style="background-color: #F2F2F2"> <!-- Pied de page-->
-			<div> <h4>A propos</h4>
-			   <ul>
-				   <li>Fonctionnement du site</li>
-				   <li>Conditions générales de vente</li>
-				   <li>Données et confidentialité</li>
-			   </ul>
-			</div>
-
-			<div> <p>Nos hébergements</p>
-				<ul>
-					<li>Charte qualité</li>
-					<li>Soumettre votre hôtel</li>
-				</ul>
-			</div>
-			
-			<div> <p>Assistance</p>  
-                <ul>
-					<li>Centre d'aide</li>
-					<li>Nous contacter</li>
-				</ul>
-			</div>
-            
-
-		</footer>
-	
-</body>
-</html>		
-		
-
-
-
-
-
-
-
-
-
-
-
 	</div>
+
+	<footer id="footer" style="background-color: #F2F2F2">
+		<!-- Pied de page-->
+		<div>
+			<h4>A propos</h4>
+			<ul>
+				<li>Fonctionnement du site</li>
+				<li>Conditions générales de vente</li>
+				<li>Données et confidentialité</li>
+			</ul>
+		</div>
+
+		<div>
+			<p>Nos hébergements</p>
+			<ul>
+				<li>Charte qualité</li>
+				<li>Soumettre votre hôtel</li>
+			</ul>
+		</div>
+
+		<div>
+			<p>Assistance</p>
+			<ul>
+				<li>Centre d'aide</li>
+				<li>Nous contacter</li>
+			</ul>
+		</div>
+
+
+	</footer>
+
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
 </html>
