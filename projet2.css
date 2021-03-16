@@ -42,12 +42,12 @@ nav li
 	float: right;
 }
 
-.trouvez
+#Filtres
 {
-	display: inline;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
-
-
 
 
 .populaires 
@@ -67,15 +67,17 @@ nav li
 	font-size: 2.4em;
 }
 
-#etoiles_icones
+.etoiles_icones
 {
 	padding-top: 5%;
 }
 
+
+
 .populaires img
 {
-    height: 100px;
-	width: 35%;
+    height: 200px
+	width: 200px;
 	object-fit: cover;
 	
 }
@@ -87,10 +89,7 @@ nav li
 	background-color: #F2F2F2
 }
 
-.cartes_hebergement 
-{
-   	
-}
+
 
 
 
@@ -150,6 +149,19 @@ footer li
 	display: flex;
 	justify-content: space-between;
 }
+
+#Filtres 
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#Filtres div
+{
+	margin-right: 3%;
+	
+}
+
 
 #section1
 {
@@ -243,7 +255,7 @@ footer li
 	
 	background-color: white;
 	padding: 5%;
-
+    
 }
 
 
