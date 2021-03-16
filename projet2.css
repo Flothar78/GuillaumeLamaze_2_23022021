@@ -7,8 +7,8 @@ body
 
 #bloc_page
 {
-	margin-left: 5% ;
-	margin-right: 5%;
+	margin-left: 3% ;
+	margin-right: 3%;
 }
 
 header
@@ -48,29 +48,60 @@ nav li
 }
 
 
-figure
-{
-	border: 3px solid green;
-}
+
 
 .populaires 
 {
 	display: flex;
-	margin-left, margin-right: 100px;
 	
-	
-	
+}
+
+.populaires figcaption
+{
+	width: 100%;
+	background-color: white;	
+}
+
+.populaires  p
+{
+	font-size: 2.4em;
+}
+
+#etoiles_icones
+{
+	padding-top: 5%;
 }
 
 .populaires img
 {
-    height: 200px;
+    height: 100px;
 	width: 35%;
 	object-fit: cover;
-	object-position: center;
+	
 }
 
 
+#suphebergement1
+{
+	
+	background-color: #F2F2F2
+}
+
+.cartes_hebergement 
+{
+   	
+}
+
+
+
+.cartes_hebergement img
+{
+	
+    height: 270px;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
 
 
 
@@ -88,6 +119,21 @@ footer li
 	margin: 0;
 	padding: 3em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,6 +168,7 @@ footer li
 	justify-content: space-between;
     margin-left: 3%;
 	width: 65%;
+	
 }
 
 .populaires 
@@ -130,27 +177,44 @@ footer li
 	margin-left: 30px;
 	margin-right: 30px;	
 	margin-top: 30px;
+	
+	
 }
 
 .populaires img
 {
-	
     height: 100px;
 	width: 35%;
 	object-fit: cover;
+	object-position: center;
 	
 }
 
-#marge
+.populaires figcaption
 {
-	height: 50px;
 	
+	background-color: white;
+	padding-left: 5%;
+}	
+
+.populaires p
+
+{
+	line-height: 90%;
+	font-size: 0.9em;
 }
+
+#etoiles_icones
+{
+	padding-top: 5%;
+}
+
 
 #suphebergement2
 {
 	height: 100%;
 	background-color: #F2F2F2
+	
 }
 
 
@@ -174,15 +238,27 @@ footer li
     margin: 20px;		
 }
 
+.cartes_hebergement figcaption
+{
+	
+	background-color: white;
+	padding: 5%;
+
+}
 
 
 .cartes_hebergement img
 {
-	
     height: 100px;
 	width: 100%;
 	object-position: center;
 	object-fit: cover;
+}
+
+.cartes_hebergement p
+{
+	font-size: 0.9em;
+	line-height: 60%;
 }
 
 
@@ -204,10 +280,20 @@ footer ul
 	padding-left: 0;
 }
 
+}
 
 
 
 
+
+
+
+
+
+figure
+{
+	border: 3px solid green;
+}
 
 div
 {
