@@ -26,6 +26,7 @@ nav ul
 {
 	display: flex;
 	list-style-type: none; 
+	border-bottom: #F2F2F2;
 }
 
 
@@ -46,36 +47,36 @@ nav li
 {
     font-size: 20px;
 }
-
-#Filtres
+ 
+#Filtres1
 {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	display:flex;
+
 }
 
+.Filtres:hover
+{
+	font-size: 1.2em;
+}
 
-.populaires 
+.populaires
 {
 	display: flex;
-	
-	
+} 
+
+
+.populaires img
+{
+    height: 280px;
+	width: 32%;
+	object-fit: cover;
+
 }
 
 .populaires figcaption
 {
-	width: 100%;
-	background-color: white;
-	
-	
-}
+	padding-left: 3%;
 
-.populaires img
-{
-    height: 200px
-	width: 45%;
-	object-fit: cover;
-	
 }
 
 .populaires  p
@@ -83,29 +84,19 @@ nav li
 	font-size: 2.4em;
 }
 
-.etoiles_icones
-{
-	padding-top: 5%;
-}
-
-
-
-#suphebergement1
-{
-	
-	background-color: #F2F2F2
-}
 
 
 .cartes_hebergement img
 {
-	
-    height: 270px;
+    max-height: 350px;
 	width: 100%;
-	object-position: center;
 	object-fit: cover;
 }
 
+.cartes_hebergement figcaption
+{
+	margin-left: 3%;
+}
 
 .activites img
 {
@@ -114,6 +105,11 @@ nav li
 	object-position: 50% 40%;
 	object-fit: cover;
 }
+
+
+
+
+
 
 
 
@@ -160,15 +156,19 @@ footer li
 	justify-content: space-between;
 }
 
+
+
 #Filtres 
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
-#Filtres div
+
+#Filtres1, #Filtres2
 {
-	margin-right: 3%;
+	display: flex;
+	justify-content: space-between;
 	
 }
 
@@ -182,49 +182,8 @@ footer li
 
 
 
-#suphebergement1
-{
-	background-color: #F2F2F2;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-    margin-left: 3%;
-	width: 65%;
-	
-}
 
-.populaires 
-{	
 
-}
-
-.populaires img
-{
-    height: 100px;
-	width: 35%;
-	object-fit: cover;
-	object-position: center;
-	
-}
-
-.populaires figcaption
-{
-
-	background-color: white;
-	padding-left: 5%;	
-}	
-
-.populaires p
-
-{
-	
-	font-size: 0.9em;
-}
-
-#etoiles_icones
-{
-	padding-top: 5%;
-}
 
 
 #suphebergement2
@@ -235,25 +194,25 @@ footer li
 }
 
 
-#titrehebergement
-{
-	margin-left: 5%;
-	margin-top: 9%;
-}
-
-#suphebergement21
+	#suphebergement21
 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-	height: 100%;
-}
 
+}
 
 .cartes_hebergement 
 {
-    margin: 20px;		
+   	
+	max-width: 20%;	
 }
+
+.cartes_hebergement img
+{
+    height: 100px;
+	width: 100%;
+	object-fit: cover;
+}	
 
 .cartes_hebergement figcaption
 {
@@ -262,24 +221,6 @@ footer li
 	padding: 5%;
     
 }
-
-
-.cartes_hebergement img
-{
-    height: 100px;
-	width: 100%;
-	object-position: center;
-	object-fit: cover;
-}
-
-.cartes_hebergement p
-{
-	font-size: 0.9em;
-	line-height: 60%;
-}
-
-
-
 
 
 
