@@ -95,7 +95,7 @@ nav li
 
 .cartes_hebergement figcaption
 {
-	margin-left: 3%;
+	
 }
 
 .activites img
@@ -105,7 +105,6 @@ nav li
 	object-position: 50% 40%;
 	object-fit: cover;
 }
-
 
 
 
@@ -181,6 +180,41 @@ footer li
 }
 
 
+#populaires
+
+{
+   background-color: #F2F2F2;
+}
+
+
+
+.populaires
+{
+	background-color: white;
+
+}
+
+.populaires img
+{
+	height: 115px;
+	object-fit: cover;
+	min-width: 39%;
+}
+
+.populaires figcaption
+{
+	padding-bottom: 3%;
+
+}
+
+.populaires p
+{
+
+	font-size: 0.8em;
+
+}
+
+
 
 
 
@@ -188,38 +222,134 @@ footer li
 
 #suphebergement2
 {
-	height: 100%;
-	background-color: #F2F2F2
-	
-}
-
-
-	#suphebergement21
-{
+	max-width: 70%;
+	background-color: #F2F2F2;
+	margin-right: 5%;
 	display: flex;
 	flex-wrap: wrap;
-
+    margin: ;
 }
+	
+
+
+
+	
 
 .cartes_hebergement 
 {
-   	
-	max-width: 20%;	
+	background-color: white;
+	max-width: 23%;
+	
 }
 
 .cartes_hebergement img
 {
-    height: 100px;
+   
+    height: 90px;
 	width: 100%;
+	object-position: center;
 	object-fit: cover;
-}	
+}
 
 .cartes_hebergement figcaption
 {
 	
-	background-color: white;
-	padding: 5%;
+	padding-top:;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	
+}
+
+
+.cartes_hebergement p
+{
+	font-size: 0.8em;
+	line-height: 60%;
+	
+	color: black;
+}
+
+
+
+
+
+
+#section2
+{
+	display: flex;
+	margin-bottom: 3%;
+}
+
+#section2 div
+{
+	margin-right: 3%;
+	
+}
+
+div .activites
+{
+
+	width: 100%;
+	margin: 0;
     
+}
+
+.activites figcaption
+{
+	margin-left: 5%;
+}
+
+
+#vieux-port	 img
+{
+    min-height: 440px;
+	object-fit: cover;
+}
+
+#pomegues-frioul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+
+
+#pomegues img
+{
+    height: 200px;
+	object-fit: cover;
+	object-position: 50% 30%;
+}
+
+#frioul img
+{
+	height: 107px;
+	object-fit: cover;
+	object-position: 50% 15%;
+}
+
+#calanques  img
+{
+	min-height: 440px;
+	object-fit: cover;
+}
+
+
+
+#garde-longchamp
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between ;
+	
+}
+
+
+#garde-longchamp .activites img
+{
+    max-height: 200px;
 }
 
 
