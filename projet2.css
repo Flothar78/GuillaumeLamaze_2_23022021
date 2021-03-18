@@ -11,10 +11,6 @@ body
 	margin-right: 3%;
 }
 
-header
-{
-	color: F2F2F2;
-}
 
 #logo
 {
@@ -172,6 +168,10 @@ footer li
 }
 
 
+
+
+
+
 #section1
 {
 	display: flex;
@@ -180,10 +180,13 @@ footer li
 }
 
 
+
 #populaires
 
 {
-   background-color: #F2F2F2;
+ 
+	
+	background-color: #F2F2F2;
 }
 
 
@@ -214,20 +217,38 @@ footer li
 
 }
 
-
-
-
-
-
-
-#suphebergement2
+#populairesettitre
 {
-	max-width: 70%;
+	width: 28%;
 	background-color: #F2F2F2;
-	margin-right: 5%;
+	margin-bottom: 0px;
+}
+
+#hebergementettitre
+{
+	width: 72%;
+	background-color: #F2F2F2;
+	margin-right: 3%;
+	
+}
+
+.titrehebergement
+{
+    
+	background-color: #F2F2F2;
+	margin-left: 1.9em;
+	font-size: 1.3em;
+}
+
+
+
+#hebergement
+{
+	width: 100%;
+	background-color: #F2F2F2;
 	display: flex;
 	flex-wrap: wrap;
-    margin: ;
+    
 }
 	
 
@@ -254,7 +275,7 @@ footer li
 .cartes_hebergement figcaption
 {
 	
-	padding-top:;
+	
 	margin-left: 5%;
 	margin-bottom: 5%;
 	
