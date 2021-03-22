@@ -22,6 +22,7 @@ header
 #logo
 {
 	width: 25%;
+	padding-left: 2.7em;
 }
 
 #S_inscrire
@@ -37,11 +38,20 @@ header
 	
 }
 
+
+#logoinscription
+{
+	
+	margin-bottom: 2em;
+
+}
+
+
 #menu
 {
 	padding-top: 2em; 
 	border-bottom: solid 8px #F2F2F2;	
-	padding-bottom: 2em;
+	
 }
 
 
@@ -51,6 +61,8 @@ nav ul
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none; 
+	padding-left: 0;
+	margin-bottom: 0;
 	
 }
 
@@ -58,10 +70,11 @@ nav ul li
 {
 	width: 50%;
 	text-align: end;
+	padding-bottom: 2em;
 }
 
 
-nav li a
+#menu li a
 {
 	text-decoration: none;
 	font-size: 2.5em;
@@ -77,20 +90,85 @@ nav ul li:hover
 
 }
 
+header h4
+{
+	word-break: 
+}
+
+form
+{
+	display: flex;
+	
+}
+
+#rechercher
+{
+	
+	display: none;
+	margin-top:5%;
+}
 
 .map-marker
 {
-	font-size: 2em;
-	height: 2em;
-	width: 15em;
+	margin-top:5%;
+	height: 91px;
+	width: 10%;
+	background-color: #F2F2F2;
+	border-radius: 35% 0 0 35%;
+	text-align: center;
 }
 
-.rechercher 
+.fa-map-marker-alt
 {
-	height: 2em;
-	width: 15em;
+	padding-top: 25px;
 	font-size: 2em;
 }
+
+#formulaire
+{
+	
+	margin-top:5%;
+	width: 74%;
+	height: 85px;
+	
+}
+
+.rechercher
+{
+	height: 100%;
+	width: 100%;
+	font-size: 300%;
+		
+}
+
+#loupe
+{
+	width: 10%;
+	text-align: center;
+	margin-top: 5%;
+	
+	
+}
+
+.fa-search
+{
+	width: 100%;
+	height: 50%;
+	font-size: 1.5em;
+	background-color: #0065FC;
+	padding-bottom: 30px;
+	border-radius: 35%;
+
+}
+
+
+
+
+
+
+
+
+
 
 #Filtres
 {
@@ -101,8 +179,6 @@ nav ul li:hover
 {
 	display: flex;
 	font-size: 2.6em;
-
-
 }
 
 .Filtres:hover
@@ -211,10 +287,133 @@ footer li
 {
 
 
-#logomenu
+#logoinscription
 {
 	display: flex;
 	justify-content: space-between;
+}
+
+
+#logo
+{
+	padding-left: 0;
+    width: 75px;
+	object-fit: contain;
+}
+
+#menu
+{
+	font-size: 0.5em;
+	padding-top: 0;
+	border-bottom: solid 8px transparent;
+}
+
+#S_inscrire a
+{
+	font-size: 0.6em;
+	font-weight: bold;
+}
+
+#S_inscrire p
+{
+	margin-bottom: 0;
+}
+
+
+#S_inscrire 
+{
+	padding-right: 45px;
+	padding-top: 12px;
+}
+
+
+
+nav ul
+{
+	margin-top: 0;
+}
+#menu ul li
+{
+	font-size: 0.6em;
+	border-bottom: solid 8px transparent;
+	padding-top: 4em;
+}
+
+
+nav ul li:hover 
+{
+    border-top: solid 4px #0065fc;  
+	border-bottom: solid 8px transparent;
+}
+
+#menu li a 
+{
+   padding-right: 45px;
+}
+
+#trouvez
+{
+	margin-bottom: 4px;
+}
+
+#enpleincentreville
+{
+	margin-top: 0;
+	margin-bottom: -40px;
+}
+
+
+.map-marker
+{
+	height: 2.1em ;
+	width: 2em;
+	background-color: #F2F2F2;
+	padding-top: 11px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-radius: 30% 0 0 30%;
+}
+
+.fa-map-marker-alt
+{
+	padding-top: 0px;
+	font-size: 1.3em
+}
+
+.fa-search
+{
+	display: none;
+}
+
+
+#formulaire
+{
+	
+	width: 25%;
+	height: 72	px;
+}
+
+
+.rechercher
+{
+	height: 2.9em ;
+	width: 100%;
+	font-size: 83%;
+}
+
+
+
+#rechercher
+{
+	display: inline;
+	background-color: #0065FC;
+	margin-top: 0;
+	box-sizing: content-box;
+	height: 2.2em ;
+	width: 100%;
+	font-size: 1.1em;
+	color: white;
+	border-radius: 0 13px 13px 0;
 }
 
 
@@ -226,12 +425,14 @@ footer li
 }
 
 
-#Filtres1, #Filtres2
+#Filtres1, #Filtres2	
 {
 	display: flex;
 	justify-content: space-between;
 	
 }
+
+
 
 
 
@@ -327,6 +528,10 @@ footer li
 	
 }
 
+#hebergement figure
+{
+	margin-right: 0;
+}
 .cartes_hebergement img
 {
    
@@ -387,7 +592,7 @@ div .activites
 
 #vieux-port	 img
 {
-    min-height: 440px;
+    height: 440px;
 	object-fit: cover;
 }
 
@@ -417,7 +622,7 @@ div .activites
 
 #calanques  img
 {
-	min-height: 440px;
+	height: 440px;
 	object-fit: cover;
 }
 
@@ -491,3 +696,12 @@ figure
 	border-style: solid;
 }
 
+div
+{
+	border: solid 1px yellow;
+}
+
+li
+{
+	border: 2px purple solid;
+}
