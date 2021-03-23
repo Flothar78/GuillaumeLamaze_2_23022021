@@ -16,22 +16,24 @@ body
 header
 {
 	padding-bottom: 5%;
+	position: relative;
 }
 
 
 #logo
 {
 	width: 25%;
-	padding-left: 2.7em;
+	padding-left: 0;
 }
 
-#S_inscrire
+.S_inscrire
 {
 	float: right;
+	
 }
 
 
-#S_inscrire a
+.S_inscrire a
 {
 	text-decoration: none;
 	font-size: 2.4em;
@@ -64,20 +66,27 @@ nav ul
 	padding-left: 0;
 	margin-bottom: 0;
 	
+	
 }
 
-nav ul li
+.li1
 {
-	width: 50%;
-	text-align: end;
+	padding-left: 4.5%;
+}
+
+
+.li2
+{
+	
 	padding-bottom: 2em;
+	padding-left: 17%;
 }
 
 
 #menu li a
 {
 	text-decoration: none;
-	font-size: 2.5em;
+	font-size: 	2.4em;
 	padding-right: 98px;
 }	
 
@@ -165,29 +174,66 @@ form
 
 
 
-
-
-
-
-
-#Filtres
+.filtres
 {
-	padding-top: 5%;
+	margin-bottom: 3%;
+	border: red 1px solid;
+	margin-right: auto;	
 }
- 
-#Filtres1
+
+
+
+.filtres:hover
+{
+	font-size: 2em;
+}
+
+.ecofamilles 
 {
 	display: flex;
-	font-size: 2.6em;
+	font-size: 3em;
+	
 }
 
-.Filtres:hover
+.ecofamilles .filtres
 {
-	font-size: 1.2em;
+	width: 50%;
 }
 
 
 
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+	color: #0065FC;
+}
+
+
+.economique, .familial
+{
+	background-color: #DEEBFF;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	border-radius: 50% ;
+	text-align: center;
+	line-height: 100px;
+}	
+
+
+
+.romantique, .animaux
+{
+	background-color: #DEEBFF;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	border-radius: 50% ;
+	text-align: center;
+	line-height: 100px;
+	
+}
 
 
 
@@ -286,6 +332,7 @@ footer li
 @media all and (min-width: 991px)
 {
 
+	
 
 #logoinscription
 {
@@ -303,26 +350,28 @@ footer li
 
 #menu
 {
-	font-size: 0.5em;
+	font-size: 0.7em;
 	padding-top: 0;
 	border-bottom: solid 8px transparent;
 }
 
-#S_inscrire a
+.S_inscrire a
 {
-	font-size: 0.6em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
-#S_inscrire p
+.S_inscrire p
 {
 	margin-bottom: 0;
 }
 
 
-#S_inscrire 
+.S_inscrire 
 {
+	
 	padding-right: 45px;
+	padding-left: 45px;
 	padding-top: 12px;
 }
 
@@ -418,18 +467,78 @@ nav ul li:hover
 
 
 
-#Filtres 
+
+
+
+#filtres div
 {
-	display: flex;
-	justify-content: space-around;
+	float: left;	
 }
 
 
-#Filtres1, #Filtres2	
+div .filtres
+{
+	float: left;
+}
+
+.ecofamilles
+{
+	font-size: 1.1em;
+	
+	display: inline-flex;
+}
+
+.romanimaux
+{
+	display: inline-flex;
+}
+
+.filtres
 {
 	display: flex;
-	justify-content: space-between;
+	margin-right: 5%;
+}
+
+.romantique
+{
+	margin-left: 10%;
+}
+
+
+.titrefiltres
+{
 	
+}
+
+
+.economique, .familial
+{
+	background-color: #DEEBFF;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 30% ;
+	text-align: center;
+	line-height: 30px;
+}	
+
+
+
+.romantique, .animaux
+{
+	background-color: #DEEBFF;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 30% ;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+.information
+{
+	display: block;
 }
 
 
