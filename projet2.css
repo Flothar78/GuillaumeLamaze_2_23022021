@@ -507,7 +507,7 @@ div .filtres
 
 .titrefiltres
 {
-	
+		
 }
 
 
@@ -545,7 +545,10 @@ div .filtres
 
 
 
-
+main a
+{
+	text-decoration: none;
+}
 
 
 #section1
@@ -555,19 +558,49 @@ div .filtres
 	justify-content: space-between;
 }
 
+#populairesettitre
+{
+	width: 28%;
+	background-color: #F2F2F2;
+	margin-bottom: 0;
+}
+
+
+.titrehebergementpop
+{
+	width: auto;
+	background-color: #F2F2F2;
+	font-size: 1.3em;
+	padding-left: 4%;
+}
+
+
+.fa-chart-line
+{
+	float: right;
+}
 
 
 #populaires
-
 {
+	
 	background-color: #F2F2F2;
 }
 
+#populaires figure 
+{
+	width: 85%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	
+}
 
 
 .populaires
 {
-	background-color: white;
+	background-color: white;	
+	margin-bottom: 14%;
 
 }
 
@@ -591,29 +624,23 @@ div .filtres
 
 }
 
-#populairesettitre
-{
-	width: 28%;
-	background-color: #F2F2F2;
-	margin-bottom: 0px;
-}
 
 #hebergementettitre
 {
 	width: 72%;
 	background-color: #F2F2F2;
-	margin-right: 3%;
+	margin-right: 4%;
 	
 }
 
-.titrehebergement
+.titrehebergementmars
 {
-    
+	width: auto;
 	background-color: #F2F2F2;
-	margin-left: 1.9em;
 	font-size: 1.3em;
+	padding-left: 2%;
+	
 }
-
 
 
 #hebergement
@@ -622,28 +649,27 @@ div .filtres
 	background-color: #F2F2F2;
 	display: flex;
 	flex-wrap: wrap;
-    
 }
 	
 
+.lien_cartes_hebergement
+{
+	width: 30%;
+	margin: auto;
+	margin-bottom: 3%;
+}
 
-
-	
-
-.cartes_hebergement 
+ .cartes_hebergement 
 {
 	background-color: white;
-	max-width: 23%;
-	
+	width: 100%;	
+	margin: 0;
 }
 
-#hebergement figure
-{
-	margin-right: 0;
-}
+
+
 .cartes_hebergement img
 {
-   
     height: 90px;
 	width: 100%;
 	object-position: center;
@@ -668,7 +694,13 @@ div .filtres
 	color: black;
 }
 
-
+.afficherplus
+{
+	font-weight: bold;
+	width: 100%;
+	padding-left: 2%;
+	padding-bottom: 3%;
+}
 
 
 
