@@ -101,12 +101,6 @@ nav ul li:hover
 }
 
 
-}
-header h4
-{
-	word-break: 
-}
-
 form
 {
 	display: flex;
@@ -180,11 +174,10 @@ form
 .filtres
 {
 	margin-bottom: 3%;
-	border: red 1px solid;
-	margin-right: auto;	
+	border: red 4px solid;
+    border-radius:  ;
+    
 }
-
-
 
 .filtres:hover
 {
@@ -195,7 +188,6 @@ form
 {
 	display: flex;
 	font-size: 3em;
-	
 }
 
 .ecofamilles .filtres
@@ -506,47 +498,58 @@ nav ul li:hover
 
 
 
-
-
-#filtres div
+#filtres
 {
-	float: left;	
+	position: relative;
+}	
+
+.titrefiltres
+{
+	position: absolute;
+	font-size: 1.1em;	
+	width: 75px;
+	padding-top: 0.6%;
 }
 
 
-div .filtres
+.filtres span
 {
-	float: left;
+	margin-right: 5%;
+}
+
+
+}
+
+.filtres b
+{
+	display: flex;
+	padding-right: 3%;
+	padding-top: 2.5%;
+}
+
+.filtres
+{
+	width: auto;
+	display: flex;
+	margin-right: 20px;
+	
 }
 
 .ecofamilles
 {
-	font-size: 1.1em;
-	
 	display: inline-flex;
+	height: 100%;
+	font-size: 1.1em;	
+	margin-left: 7%;
 }
 
 .romanimaux
 {
 	display: inline-flex;
-}
-
-.filtres
-{
-	display: flex;
-	margin-right: 5%;
-}
-
-.romantique
-{
-	margin-left: 10%;
+	font-size: 1.1em;
 }
 
 
-.titrefiltres
-{
-		
-}
 
 
 .economique, .familial
@@ -554,7 +557,7 @@ div .filtres
 	background-color: #DEEBFF;
 	width: 30px;
 	height: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	border-radius: 30% ;
 	text-align: center;
 	line-height: 30px;
@@ -567,7 +570,7 @@ div .filtres
 	background-color: #DEEBFF;
 	width: 30px;
 	height: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	border-radius: 30% ;
 	text-align: center;
 	line-height: 30px;
@@ -873,10 +876,7 @@ figure
 	border-style: solid;
 }
 
-div
-{
-	border: solid 1px yellow;
-}
+
 
 li
 {
