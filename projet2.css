@@ -237,20 +237,28 @@ form
 }
 
 
-
+#populairesettitre
+{
+	background-color: #F2F2F2;
+}
 
 .populaires
 {
 	display: flex;
+	background-color: white;
+	border: white 10px solid;
+	border-radius: 9% ;
+	box-shadow: #e2dddd 3px 3px 5px;
 } 
 
 
 .populaires img
 {
-    height: 280px;
+    
+	height: 280px;
 	width: 32%;
 	object-fit: cover;
-
+	border-radius: 15% 0 0 15%;
 }
 
 .populaires figcaption
@@ -273,10 +281,7 @@ form
 	object-fit: cover;
 }
 
-.cartes_hebergement figcaption
-{
-	
-}
+
 
 #section2
 {
@@ -635,7 +640,9 @@ nav ul li:hover
 {
 	background-color: white;	
 	margin-bottom: 14%;
-
+	border: white 4px solid;
+	border-radius:  8%;
+	
 }
 
 .populaires img
@@ -643,6 +650,7 @@ nav ul li:hover
 	height: 115px;
 	object-fit: cover;
 	min-width: 39%;
+	border-radius: 13% 0 0 13%;
 }
 
 .populaires figcaption
