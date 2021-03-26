@@ -169,20 +169,17 @@ form
 
 }
 
-.fa-search 
-{
-
-}
-
 
 
 
 .filtres
 {
 	margin-bottom: 3%;
-	border: red 4px solid;
-    border-radius:  ;
-    
+	border: 6px solid #F2F2F2;
+    border-top-right-radius: 200px; 
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px; 
+	border-bottom-left-radius: 200px;   
 }
 
 .filtres:hover
@@ -198,9 +195,19 @@ form
 
 .ecofamilles .filtres
 {
-	width: 50%;
+	margin-right: 5%;
+	padding-right: 4%;
+
 }
 
+
+.romanimaux .filtres
+{
+	padding-right: 0;
+	display: inline-block;
+	font-size: 3em;
+	padding-right: 4%;
+}
 
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
@@ -240,6 +247,7 @@ form
 #populairesettitre
 {
 	background-color: #F2F2F2;
+	padding-bottom: 6%;
 }
 
 .populaires
@@ -247,8 +255,8 @@ form
 	display: flex;
 	background-color: white;
 	border: white 10px solid;
-	border-radius: 9% ;
-	box-shadow: #e2dddd 3px 3px 5px;
+	border-radius: 10%/15% ;
+	box-shadow: #e2dddd 3px 3px 14px;
 } 
 
 
@@ -272,13 +280,19 @@ form
 	font-size: 2.4em;
 }
 
-
+.cartes_hebergement
+{
+	border: white 10px solid;
+	border-radius: 10%/15% ;
+	box-shadow: #e2dddd 3px 3px 14px;
+}
 
 .cartes_hebergement img
 {
     max-height: 350px;
 	width: 100%;
 	object-fit: cover;
+	border-radius: 35px 35px 0 0;
 }
 
 
@@ -288,12 +302,22 @@ form
 	margin-bottom: 8%;
 }
 
+
+.activites
+{
+	border-radius: 10%/15% ;
+	box-shadow: #e2dddd 3px 3px 17px;
+	margin: 5%;
+}
+
+
 .activites img
 {
     max-height: 350px;
 	width: 100%;
 	object-position: 50% 40%;
 	object-fit: cover;
+	border-radius: 35px 35px 0 0;
 }
 
 
@@ -507,80 +531,90 @@ nav ul li:hover
 .titrefiltres
 {
 	position: absolute;
-	font-size: 1.1em;	
-	width: 75px;
+    font-size: 1.3em;
+	margin-right: 3%;
 	padding-top: 0.6%;
 }
 
 
 .filtres span
 {
-	margin-right: 5%;
+	
 }
-
-
 
 
 .filtres b
 {
 	display: flex;
 	padding-right: 3%;
-	padding-top: 2.5%;
+	padding-left: 3%;
 }
+
+.romanimaux b
+{
+	padding-top: 4%;
+}
+
+.ecofamilles b
+{
+	padding-top: 6%;
+}
+
 
 .filtres
 {
 	width: auto;
 	display: flex;
 	margin-right: 20px;
-	
 }
 
 .ecofamilles
 {
 	display: inline-flex;
 	height: 100%;
-	font-size: 1.1em;	
-	margin-left: 7%;
+	font-size: 1.2em;
+	margin-left: 10%;
 }
 
 .romanimaux
 {
 	display: inline-flex;
-	font-size: 1.1em;
+	font-size: 0.4em;
+	margin-left: 6%;
 }
 
-
-
+.romanimaux .filtres
+{
+	display: inline-flex;
+}
 
 .economique, .familial
 {
 	background-color: #DEEBFF;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	font-size: 15px;
-	border-radius: 30% ;
 	text-align: center;
-	line-height: 30px;
+	line-height: 40px;
 }	
 
 
 
 .romantique, .animaux
 {
-	background-color: #DEEBFF;
-	width: 30px;
-	height: 30px;
+	ackground-color: #DEEBFF;
+	width: 40px;
+	height: 40px;
 	font-size: 15px;
-	border-radius: 30% ;
+	
 	text-align: center;
-	line-height: 30px;
+	line-height: 40px;
 }
 
 
 .information
 {
-	display: block;
+	display: inline-block;
 }
 
 
@@ -599,9 +633,11 @@ nav ul li:hover
 
 #populairesettitre
 {
-	width: 28%;
+	width: 32%;
 	background-color: #F2F2F2;
 	margin-bottom: 0;
+	padding-bottom: 0;
+	border-radius: 15px 15px;
 }
 
 
@@ -609,14 +645,17 @@ nav ul li:hover
 {
 	width: auto;
 	background-color: #F2F2F2;
-	font-size: 1.3em;
-	padding-left: 4%;
+	font-weight: bold;
+	padding-left: 7%;
+
 }
 
 
 .fa-chart-line
 {
 	float: right;
+	padding-right: 7%;
+	
 }
 
 
@@ -661,26 +700,25 @@ nav ul li:hover
 
 .populaires p
 {
-
 	font-size: 0.8em;
-
 }
+
+
 
 
 #hebergementettitre
 {
-	width: 72%;
+	width: 68%;
 	background-color: #F2F2F2;
 	margin-right: 4%;
-	
+	border-radius: 15px;
 }
 
 .titrehebergementmars
 {
 	width: auto;
 	background-color: #F2F2F2;
-	font-size: 1.3em;
-	padding-left: 2%;
+	padding-left: 3%;
 	
 }
 
@@ -696,7 +734,7 @@ nav ul li:hover
 
 .lien_cartes_hebergement
 {
-	width: 30%;
+	width: 28%;
 	margin: auto;
 	margin-bottom: 3%;
 }
@@ -705,26 +743,28 @@ nav ul li:hover
 {
 	background-color: white;
 	width: 100%;	
-	margin: 0;
+	margin: auto;
+	border: white 3px solid;
+	border-radius: 15px;
+	box-shadow: #e2dddd 3px 3px 7px;
+
 }
 
 
 
 .cartes_hebergement img
 {
-    height: 90px;
+    height: 80px;
 	width: 100%;
 	object-position: center;
 	object-fit: cover;
+	border-radius: 15px 15px 0 0;
 }
 
 .cartes_hebergement figcaption
 {
-	
-	
 	margin-left: 5%;
 	margin-bottom: 5%;
-	
 }
 
 
@@ -739,30 +779,54 @@ nav ul li:hover
 .afficherplus
 {
 	font-weight: bold;
-	width: 100%;
-	padding-left: 2%;
-	padding-bottom: 3%;
+	font-size: 0.8em;
+	padding-top: 3%;
+	padding-left: 3%;
+	
 }
 
-
+.titreactivites
+{
+	font-weight: bold;
+	margin-bottom: 0;
+}	
 
 
 #section2
 {
 	display: flex;
 	margin-bottom: 3%;
+	margin-top: 1%;
 	font-size: 0.8em;
 }
 
 #section2 div
 {
 	margin-right: 3%;
+	width: 25%;
 }
 
 div .activites
 {
 	width: 100%;
 	margin: 0;
+}
+
+.activites
+{
+	border-radius: 10px ;
+	box-shadow: #e2dddd 2px 2px 10px;
+	margin: 20%;
+}
+
+
+.activites img
+{
+    max-height: 320px;
+	width: 100%;
+	object-position: 50% 40%;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
 }
 
 .activites figcaption
@@ -774,7 +838,7 @@ div .activites
 
 #vieux-port	 img
 {
-    height: 440px;
+   height: 350px;
 	object-fit: cover;
 }
 
@@ -805,7 +869,7 @@ div .activites
 
 #calanques  img
 {
-	height: 440px;
+	height: 350px;
 	object-fit: cover;
 }
 
