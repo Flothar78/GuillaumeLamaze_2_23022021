@@ -848,36 +848,3 @@ footer div
 
 
 
-
-div
-{
-	border: yellow solid 1px;
-}
-
-figure
-{
-	border: 3px solid green;
-}
-
-
-
-#section1
-{
-	border-width: 2px;
-	border-color: red;
-	border-style: solid;
-}
-
-#section2
-{
-	border-width: 2px;
-	border-color: blue;
-	border-style: solid;
-}
-
-
-
-li
-{
-	border: 2px purple solid;
-}
