@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+	max-width: 1200px;
+	margin: auto;
 	
 }
 
@@ -75,10 +77,11 @@ nav ul
 
 
 
-#menu li
+nav ul li
 {
    width: 50%;
    text-align: center;
+    border-bottom: solid 8px #F2F2F2;	  
 }
 
 
@@ -106,12 +109,13 @@ nav li a :hover
 form
 {
 	display: flex;
-	
+	font-size: 1.3em;
+	margin-bottom: 8%;
 }
+
 
 #rechercher
 {
-	
 	display: none;
 	margin-top:5%;
 }
@@ -132,45 +136,64 @@ form
 	font-size: 2em;
 }
 
+
+
 #formulaire
 {
 	
 	margin-top:5%;
-	width: 74%;
+	width: 70%;
 	height: 85px;
-	
 }
 
 .rechercher
 {
 	height: 100%;
 	width: 100%;
-	font-size: 300%;
-		
+	font-size: 250%;
+	border: 5px solid #F2F2F2;
+	border-left: 0;	
+	border-right: 0;
+	font-weight: bold;
+	padding-left: 5%;
 }
+
+.rechercher::placeholder
+{
+	color: black;
+}
+
 
 #loupe
 {
 	width: 10%;
-	text-align: center;
 	margin-top: 5%;
-	
+}
+
+.search
+{
+	width: 100%;
+	height: 100%;
+	background-color: #0065FC;
+	font-size: 1.7em;
+	color: white;
+	text-align: center;
+	border-radius: 35%;
 	
 }
 
 .fa-search
 {
-	width: 100%;
-	height: 50%;
-	font-size: 1.5em;
-	background-color: #0065FC;
-	padding-bottom: 30px;
-	border-radius: 35%;
-
+	padding-top: 32%;
 }
 
 
 
+
+.titrefiltres
+{
+	margin-bottom: 3%;
+}
 
 .filtres
 {
@@ -180,6 +203,7 @@ form
 	border-bottom-right-radius: 200px;
 	border-top-left-radius: 200px; 
 	border-bottom-left-radius: 200px;   
+	
 }
 
 .filtres:hover
@@ -244,10 +268,37 @@ form
 }
 
 
+
+.fa-info
+{
+	color: #0065FC;
+	font-size: 0.7em;
+	border: #f2f2f2 3px solid;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 1%;
+}
+
+
+.information
+{
+	padding-bottom: 6%;
+	padding-top: 6%;
+}
+	
+
+
+
+
+
 #populairesettitre
 {
 	background-color: #F2F2F2;
 	padding-bottom: 6%;
+	padding-top: 6%;
 }
 
 .populaires
@@ -463,29 +514,37 @@ nav ul li:hover
 .enpleincentreville
 {
 	margin-top: 0;
-	margin-bottom: -40px;
-	font-size: 0.73em;
+	margin-bottom: 0px;
+	font-size: 0.9em;
 }
 
+form
+{
+	font-size: 1em;
+	margin-bottom: 0;
+}
 
 .map-marker
 {
-	height: 2.1em ;
+	height: 2.3em ;
 	width: 2em;
 	background-color: #F2F2F2;
 	padding-top: 11px;
 	padding-right: 6px;
 	padding-left: 6px;
 	border-radius: 30% 0 0 30%;
+	margin-top: 2%;
 }
 
 .fa-map-marker-alt
 {
 	padding-top: 0px;
-	font-size: 1.3em
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.fa-search
+.search
 {
 	display: none;
 }
@@ -493,8 +552,9 @@ nav ul li:hover
 
 #formulaire
 {
-	width: 17%;
-	height: 72	px;
+	width: 19%;
+	height: 72px;
+	margin-top: 2%;
 }
 
 
@@ -502,9 +562,18 @@ nav ul li:hover
 {
 	height: 2.9em ;
 	width: 100%;
-	font-size: 83%;
+	font-size: 87%;
+	border: 2px solid #F2F2F2;
 }
 
+
+
+
+#loupe
+{
+	width: 12%;
+	margin-top: 2%;
+}
 
 
 #rechercher
@@ -517,7 +586,7 @@ nav ul li:hover
 	width: 100%;
 	font-size: 1.1em;
 	color: white;
-	border-radius: 0 13px 13px 0;
+	border-radius: 0 17px 17px 0;
 }
 
 
@@ -534,12 +603,6 @@ nav ul li:hover
     font-size: 1.3em;
 	margin-right: 3%;
 	padding-top: 0.6%;
-}
-
-
-.filtres span
-{
-	
 }
 
 
@@ -602,11 +665,10 @@ nav ul li:hover
 
 .romantique, .animaux
 {
-	ackground-color: #DEEBFF;
+	background-color: #DEEBFF;
 	width: 40px;
 	height: 40px;
 	font-size: 15px;
-	
 	text-align: center;
 	line-height: 40px;
 }
@@ -615,7 +677,26 @@ nav ul li:hover
 .information
 {
 	display: inline-block;
+	
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 0.9em;
+	white-space: nowrap;
 }
+
+
+.fa-info
+{
+	color: #0065FC;
+	font-size: 1.1em;
+	border: #f2f2f2 3px solid;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 1%;
+}
+
 
 
 
@@ -629,6 +710,7 @@ nav ul li:hover
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+	margin-top: 1%;
 }
 
 #populairesettitre
