@@ -1,11 +1,18 @@
 body
 {
     font-family: 'Raleway', sans-serif, Times New Roman;
-	max-width: 1200px;
+	max-width: 1199px;
 	margin: auto;
 	text-decoration: none;
 	color: black;
 }
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
 
 .bloc_page
 {
@@ -424,7 +431,7 @@ header
 
 .S_inscrire 
 {
-	padding-top: 12px;
+	padding-top: 0;
 }
 
 
