@@ -1,13 +1,8 @@
 body
 {
-    font-family: 'Raleway', sans-serif; Times New Roman
+    font-family: 'Raleway', sans-serif, Times New Roman;
 	max-width: 1200px;
 	margin: auto;
-	
-}
-
-a
-{
 	text-decoration: none;
 	color: black;
 }
@@ -464,7 +459,7 @@ nav ul
 	justify-content: space-between;
 	list-style-type: none; 
 	padding-left: 0;
-	margin-bottom: 0;*
+	margin-bottom: 0;
 	margin-top: 0;
 }
 
