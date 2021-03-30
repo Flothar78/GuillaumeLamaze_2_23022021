@@ -103,7 +103,7 @@ nav li a:hover
 .trouvez
 {
 	font-size: 3em;
-	line-height: 10px;
+	line-height: 5px;
 }
 
 
@@ -222,7 +222,7 @@ form
 
 .filtres:hover
 {
-	background-color: black;
+	background-color: black;	
 	color: #e97dff;
 }
 
@@ -454,7 +454,7 @@ form
 
 .activites figcaption
 {
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-left: 6%;
 	padding-bottom: 3%;
 }
