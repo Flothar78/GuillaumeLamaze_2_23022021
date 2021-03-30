@@ -51,7 +51,7 @@ header
 
 #logoinscription
 {
-	margin-bottom: 2em;
+	margin-bottom: 6em;
 }
 
 
@@ -96,31 +96,24 @@ nav li a:hover
 
 
 
-{
-	border-bottom: solid 8px #0065fc;  
-}
 
 
 
-
-#trouvez
-{
-	width: 100%;
-}
 
 .trouvez
 {
-    width: 90%;
-    margin-top: 8%;
-	font-size: 3.3em;
-	word-wrap: break-word;
+	font-size: 3em;
+	line-height: 10px;
 }
+
+
 
 .enpleincentreville
 {
-	font-size: 1.8em;
-	letter-spacing: -1px;
-}
+	padding-bottom: 3%;
+	padding-top: 3%;
+	font-size: 1.9em;
+}	
 
 
 
@@ -160,15 +153,15 @@ form
 {
 	
 	margin-top:5%;
-	width: 70%;
-	height: 85px;
+	width: 80%;
+	height: auto;
 }
 
 .rechercher
 {
 	height: 100%;
 	width: 100%;
-	font-size: 250%;
+	font-size: 200%;
 	border: 5px solid #F2F2F2;
 	border-left: 0;	
 	border-right: 0;
@@ -229,7 +222,8 @@ form
 
 .filtres:hover
 {
-	background-color: #e97dff;
+	background-color: black;
+	color: #e97dff;
 }
 
 
@@ -304,6 +298,7 @@ form
 	vertical-align: middle;
 	text-align: center;
 	margin-right: 1%;
+	
 }
 
 
@@ -312,7 +307,6 @@ form
 	padding-bottom: 6%;
 	padding-top: 4%;
 	font-size: 2.5em;
-	word-spacing: -3px;
 }
 	
 
@@ -323,9 +317,23 @@ form
 #populairesettitre
 {
 	background-color: #F2F2F2;
-	padding-bottom: 6%;
-	padding-top: 6%;
+	padding-bottom: 5%;
+	padding-top: 3%;
 }
+
+.titrehebergementpop
+{
+	margin-left: 4%;
+	font-size: 3em;
+
+}
+
+.fa-chart-line
+{
+	float: right;
+	margin-right: 4%;
+}
+
 
 .populaires
 {
@@ -334,12 +342,12 @@ form
 	border: white 10px solid;
 	border-radius: 10%/15% ;
 	box-shadow: #e2dddd 3px 3px 14px;
+	margin-bottom: 5%;
 } 
 
 
 .populaires img
 {
-    
 	height: 280px;
 	width: 32%;
 	object-fit: cover;
@@ -348,21 +356,44 @@ form
 
 .populaires figcaption
 {
-	padding-left: 3%;
-
+	padding-left: 6%;
 }
 
 .populaires  p
 {
-	font-size: 2.4em;
+	font-size: 2.3em;
+	margin-top: 4%;
+	margin-bottom: 0;
+}
+.populaires .etoiles_icones
+{
+	padding-top: 22%;
+	font-size: 2em;
+}
+
+
+
+#hebergementettitre
+{
+	padding-top: 4%;
+}
+
+
+.titrehebergementmars
+{
+	margin-left: 4%;
+	font-size: 2.7em;
 }
 
 .cartes_hebergement
 {
 	border: white 10px solid;
-	border-radius: 10%/15% ;
-	box-shadow: #e2dddd 3px 3px 14px;
+	border-radius: 35px 35px 35px 35px ;
+	box-shadow: #e2dddd 5px 5px  24px;
+	box-shadow: #e2dddd -5px -5px  24px;
+	margin-bottom: 3%;
 }
+
 
 .cartes_hebergement img
 {
@@ -373,12 +404,36 @@ form
 }
 
 
+.cartes_hebergement figcaption
+{
+	font-size: 1.9em;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	line-height: 10px;
+}
+
+
+
 
 #section2
 {
 	margin-bottom: 8%;
 }
 
+.afficherplus
+{
+	margin-left: 5%;
+	font-size: 1.9em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+.titreactivites
+{
+	margin-left: 5%;
+	font-size: 2.9em;
+	margin-top: 10%;
+}
 
 .activites
 {
@@ -397,25 +452,50 @@ form
 	border-radius: 35px 35px 0 0;
 }
 
+.activites figcaption
+{
+	font-size: 2em;
+	margin-left: 6%;
+	padding-bottom: 3%;
+}
+
+#frioul img
+{
+	object-position: 50% 15%;
+}
 
 
 
 
+
+#footer
+{
+	background-color: #F2F2F2;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 
 
 footer li
 {
 	list-style: none;
-	
 }
+
+
 
 #footer li
 {
-	
-	margin-left: 4%;
+	font-size: 2.3em;
+	line-height: 80px;
+	margin-left: 5%;
 }
 
 
+.footer
+{
+    margin-bottom: 5%;
+	margin-top: 5%;
+}
 
 
 
