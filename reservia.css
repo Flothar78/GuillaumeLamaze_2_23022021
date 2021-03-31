@@ -1030,10 +1030,16 @@ form
 	margin-left: 0;	
 }
 
+
+
+
 .titreactivites
 {
 	font-weight: bold;
-	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 1.1em;
+	margin-top: 5%;
+	margin-bottom: 2%;
 }	
 
 
@@ -1078,6 +1084,7 @@ div .activites
 {
 	margin-left: 5%;
 	height: 30px;
+	font-size: 0.9em;
 }
 
 
@@ -1140,8 +1147,19 @@ div .activites
 #footer
 {    
 	display: flex;
-	
-	
+	margin-top: 5%;
+	padding-top: 0;	
+}
+
+.footer
+{
+	margin-top: 0;
+}
+
+.footer ul
+{
+	padding-left: 0;
+	margin-left: 12%;
 }
 
 footer div
