@@ -21,7 +21,6 @@ a
 }
 
 
-
 header
 {
 	position: relative;
@@ -97,9 +96,6 @@ nav li a:hover
 
 
 
-
-
-
 .trouvez
 {
 	font-size: 3em;
@@ -114,6 +110,7 @@ nav li a:hover
 	padding-top: 3%;
 	font-size: 1.9em;
 }	
+
 
 
 
@@ -146,8 +143,6 @@ form
 	padding-top: 25px;
 	font-size: 2em;
 }
-
-
 
 #formulaire
 {
@@ -216,6 +211,8 @@ form
 }
 
 
+
+
 .filtres:hover
 {
 	background-color: black;	
@@ -263,8 +260,6 @@ form
 	line-height: 100px;
 }	
 
-
-
 .romantique, .animaux
 {
 	background-color: #DEEBFF;
@@ -277,8 +272,6 @@ form
 	line-height: 100px;
 	
 }
-
-
 
 .fa-info
 {
@@ -328,6 +321,7 @@ form
 }
 
 
+
 .populaires
 {
 	display: flex;
@@ -337,7 +331,6 @@ form
 	box-shadow: #e2dddd 3px 3px 14px;
 	margin-bottom: 3%;
 } 
-
 
 .populaires img
 {
@@ -354,32 +347,33 @@ form
 
 .populaires  p
 {
-	font-size: 2.3em;
+	font-size: 2.5em;
 	margin-top: 4%;
 	margin-bottom: 0;
 }
+
 .populaires .etoiles_icones
 {
 	padding-top: 22%;
-	font-size: 2em;
-	
 }
 
-.bleu-clair
+.populaires .bleu-clair
 {
 	color: #0065FC;
+	font-size: 2em;
 }
 
-.bleu-fonce
+.populaires .bleu-fonce
 {
 	color: #DEEBFF;
+	font-size: 2em;
 }
+
 
 #hebergementettitre
 {
 	padding-top: 4%;
 }
-
 
 .titrehebergementmars
 {
@@ -396,10 +390,16 @@ form
 	margin-bottom: 3%;
 }
 
-.cartes_hebergementes .etoiles_icones
+.cartes_hebergement .bleu-clair
 {
-	padding-top: 22%;
-	word-spacing: 10px;
+	color: #0065FC;
+	font-size: 1.5em;
+}
+
+.cartes_hebergement .bleu-fonce
+{
+	color: #DEEBFF;
+	font-size: 1.5em;
 }
 
 .cartes_hebergement img
@@ -410,10 +410,9 @@ form
 	border-radius: 35px 35px 0 0;
 }
 
-
 .cartes_hebergement figcaption
 {
-	font-size: 1.8em;
+	font-size: 2.3em;
 	margin-left: 3%;
 	margin-bottom: 2%;
 	line-height: 10px;
@@ -546,7 +545,6 @@ form
 header
 {
 	padding: 0;
-	
 }
 
 
@@ -570,7 +568,6 @@ header
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 2em;
-
 }
 
 #logo
@@ -587,7 +584,6 @@ header
 {
 	padding-top: 0;
     border-bottom: none;
-	
 }
 
 
@@ -610,7 +606,6 @@ nav ul li
 	border-bottom: none;
 	padding-top: 12%;
 	margin-right: 5px;
-	
 }
 
 #menu li a
@@ -633,17 +628,12 @@ nav ul li:hover
 }
 
 
-
-
 .trouvez
 {
    margin-bottom: 4px;
    display: inline;
    font-size: 1.1em;
-   
 }
-
-
 
 .enpleincentreville
 {
@@ -653,6 +643,7 @@ nav ul li:hover
 	padding-top: 1%;
 	padding-bottom: 0;
 }
+
 
 form
 {
@@ -703,8 +694,6 @@ form
 }
 
 
-
-
 #loupe
 {
 	width: 10%;
@@ -724,8 +713,6 @@ form
 	color: white;
 	border-radius: 0 17px 17px 0;
 }
-
-
 
 
 #filtres
@@ -794,8 +781,6 @@ form
 	display: inline-flex;
 }
 
-
-
 .economique, .familial
 {
 	background-color: #DEEBFF;
@@ -807,8 +792,6 @@ form
 	line-height: 40px;
 }	
 
-
-
 .romantique, .animaux
 {
 	background-color: #DEEBFF;
@@ -818,7 +801,6 @@ form
 	font-size: 15px;
 	text-align: center;
 	line-height: 40px;
-	
 }
 
 
@@ -831,7 +813,6 @@ form
 	white-space: nowrap;
 }
 
-
 .fa-info
 {
 	color: #0065FC;
@@ -843,7 +824,6 @@ form
 	text-align: center;
 	margin-right: 1%;
 }
-
 
 .information
 {
@@ -878,7 +858,6 @@ form
 	font-weight: bold;
 	padding-left: 3%;
 	font-size: 1.1em;
-
 }
 
 
@@ -886,13 +865,11 @@ form
 {
 	float: right;
 	padding-right: 3%;
-	
 }
 
 
 #populaires
 {
-	
 	background-color: #F2F2F2;
 }
 
@@ -902,7 +879,6 @@ form
     margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-	
 }
 
 
@@ -911,7 +887,6 @@ form
 	background-color: white;	
 	border: white 4px solid;
 	border-radius:  8%;
-	
 }
 
 .populaires img
@@ -925,7 +900,7 @@ form
 .populaires figcaption
 {
 	padding-bottom: 0%;
-
+    font-size: 1em;
 }
 
 .populaires p
@@ -935,20 +910,18 @@ form
 
 .populaires .etoiles_icones
 {
-	padding-top: 15%;
+	padding-top: 28%;
 }
-
 
 .populaires .bleu-clair
 {
-	font-size: 0.3em;
+	font-size: 0.7em;
 }
 
 .populaires .bleu-fonce
 {
-	font-size: 0.3em;
+	font-size: 0.7em;
 }
-
 
 
 #hebergementettitre
@@ -968,7 +941,6 @@ form
 	margin-left: 3%;
 }
 
-
 #hebergement
 {
 	width: 100%;
@@ -977,7 +949,6 @@ form
 	flex-wrap: wrap;
 }
 	
-
 .lien_cartes_hebergement
 {
 	width: 28%;
@@ -993,9 +964,7 @@ form
 	border: white 3px solid;
 	border-radius: 15px;
 	box-shadow: #e2dddd 3px 3px 7px;
-
 }
-
 
 .cartes_hebergement img
 {
@@ -1013,12 +982,10 @@ form
 	font-size: 1em;
 }
 
-
 .cartes_hebergement p
 {
 	font-size: 0.7em;
 	line-height: 60%;
-	
 	color: black;
 }
 
@@ -1032,7 +999,6 @@ form
     font-size: 0.7em;
 }
 
-
 .afficherplus
 {
 	font-weight: bold;
@@ -1043,8 +1009,6 @@ form
 }
 
 
-
-
 .titreactivites
 {
 	font-weight: bold;
@@ -1053,7 +1017,6 @@ form
 	margin-top: 5%;
 	margin-bottom: 2%;
 }	
-
 
 #section2
 {
@@ -1083,7 +1046,6 @@ div .activites
 	margin: 20%;
 }
 
-
 .activites img
 {
     max-height: 320px;
@@ -1100,15 +1062,12 @@ div .activites
 	font-size: 0.9em;
 }
 
-
 #vieux-port	 img
 {
    height: 350px;
 	object-fit: cover;
 	
 }
-
-
 
 #pomegues-frioul
 {
@@ -1144,24 +1103,18 @@ div .activites
 	object-fit: cover;
 }
 
-
-
 #garde-longchamp
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	margin-right: auto;
-	
 }
 
 #garde-longchamp  img
 {
     max-height: 118px;
-	
 }
-
-
 
 
 
@@ -1212,7 +1165,6 @@ div .activites
 	padding-top: 29%;
 	padding-bottom: 4%;
 }
-
 
 #footer p 
 {
