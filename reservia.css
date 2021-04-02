@@ -1,8 +1,6 @@
 body
 {
     font-family: 'Raleway', sans-serif, Times New Roman;
-	max-width: 1299px;
-	margin: auto;
 	text-decoration: none;
 	color: black;
 }
@@ -16,8 +14,9 @@ a
 
 .bloc_page
 {
-	margin-left: 5% ;
-	margin-right: 5%;
+	max-width: 1299px;
+	margin: auto;
+	text-decoration: none;
 }
 
 
@@ -535,9 +534,6 @@ form
 
 
 
-
-
-
 @media  (min-width: 991px)
 {
 
@@ -613,7 +609,6 @@ nav ul li
 	padding-right: 22px;
 	padding-left: 22px;
 }	
-
 
 
 nav ul li:hover 
@@ -1120,13 +1115,18 @@ div .activites
 
 #footer
 {    
-	display: flex;
-	justify-content: space-around;
-	margin-top: 5%;
 	padding-top: 0;	
 	padding-left: 0;
-	margin-left: -1%;
+	margin: auto;
 }	
+
+#footer > div
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1299px;
+	margin: auto;
+}
 
 .footer-apropos
 {
