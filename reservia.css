@@ -3,7 +3,7 @@ body
     font-family: 'Raleway', sans-serif, Times New Roman;
 	text-decoration: none;
 	color: black;
-	margin: auto;
+	margin: 0;
 }
 
 a
@@ -16,7 +16,8 @@ a
 .bloc_page
 {
 	max-width: 1299px;
-	margin: auto;
+	margin-left: 3%;
+	margin-right: 3%;
 	text-decoration: none;
 }
 
@@ -1126,7 +1127,8 @@ div .activites
 	display: flex;
 	justify-content: space-between;
 	max-width: 1299px;
-	margin: auto;
+	margin-left: 3%;
+	padding-right: 26%;
 }
 
 .footer-apropos
@@ -1134,18 +1136,15 @@ div .activites
 	margin-top: 0;
 	padding-top: 0;
 	margin-bottom: 0;
-	float: left;
 }
 
 .footer-hebergements
 {
-	padding-right: 7%;
 	padding-top: 0;
 }
 
 .footer-assistance
 {
-	padding-right: 20%;
 	padding-top: 0;
 }
 
