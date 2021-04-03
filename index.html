@@ -2,140 +2,81 @@
 <html lang="fr">
 
 <head>
-
 	<title> Reservia</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="reservia.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-
 </head>
 
 <body>
+	<!--contenu de body moins le footer-->
 	<div class="bloc_page">
-		<!--contenu de body moins le footer-->
+		<!-- Contenu du haut de page avec logo nav titre-->
 		<header>
-			<!-- Contenu du haut de page avec logo nav titre-->
-
-
-
 			<div class="S_inscrire"><a href="#">
 					<p>S'inscrire</p>
 				</a>
 			</div>
-
 			<div id="logoinscription">
-
 				<img src="photos-reservia/logoreservia.png" alt="logo reservia" id="logo" />
-
-
 				<nav id="menu">
 					<ul>
 						<li class="li1"> <a href="#section1">Hébergements</a> </li>
 						<li class="li2"> <a href="#section2">Activités</a> </li>
 					</ul>
 				</nav>
-
-
-
 			</div>
-
-
-
-
-
-
-
-
-
 			<h1 class="trouvez"> Trouvez votre hébergement </h1>
 			<h1 class="trouvez">pour des vacances de rêve</h1>
-
-
-
 			<p class="enpleincentreville">En plein centre-ville ou en pleine nature</p>
-
-
-
-
 			<form method="POST" action="traitement.php">
-
 				<div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
-
 				<div id="formulaire"><input type="text" name="ville" placeholder="Marseille, France"
 						class="rechercher" />
 				</div>
-
 				<div id="loupe">
 					<div class="search"><i class="fas fa-search"></i></div>
 					<input type="submit" value="Rechercher" id="rechercher" />
 				</div>
-
 			</form>
-
-
-
-
 			<div id="filtres">
 				<div class="titrefiltres">
 					<b>
 						Filtres
 					</b>
 				</div>
-
 				<div class="ecofamilles">
 					<div class="filtres"> <span class="economique"><i class="fas fa-money-bill-wave"></i></span>
 						<b>Economique</b>
 					</div>
-
 					<div class="filtres"><span class="familial"><i class="fas fa-child"></i></span><b>Familial</b></div>
 				</div>
-
 				<div class="romanimaux">
 					<div>
 						<div class="filtres"><span class="romantique"><i class="fas fa-heart"></i></span>
 							<b>Romantique</b>
 						</div>
 					</div>
-
 					<div class="filtres"><span class="animaux"><i class="fas fa-dog"></i></span>
-
 						<span><b>Animaux</b></span>
 						<span><b>autorisés</b></span>
-
 					</div>
 				</div>
 			</div>
-
-
-
 			<div class="information">
 				<p><i class="fas fa-info"></i>
 					Plus de 500 logements sont disponibles dans cette ville</p>
 			</div>
 		</header>
-
-
-
-
-
-
+		<!-- Partie principale et centrale avec photos-->
 		<main>
-			<!-- Partie principale et centrale avec photos-->
-
 			<section id="section1">
 				<!-- Partie hébergement + pop-->
-
 				<div id="populairesettitre">
-
-
 					<div class="titrehebergementpop">
 						<h4><b>Les plus populaires</b><i class="
 						fas fa-chart-line"> </i></h4>
-
-
 					</div>
-
-
 					<div id="populaires">
 						<!-- Les + Pop -->
 						<a href="#">
@@ -149,11 +90,9 @@
 											class="fas fa-star bleu-clair"></i><i class="fas fa-star bleu-clair"></i><i
 											class="fas fa-star bleu-clair"></i><i class="fas fa-star bleu-clair"></i>
 									</div>
-
 								</figcaption>
 							</figure>
 						</a>
-
 						<a href="#">
 							<figure class="populaires">
 								<img src="photos-reservia/hebergement-au-coeur-de-l-eau-medium.jpg"
@@ -166,12 +105,9 @@
 											class="fas fa-star bleu-clair"></i><i class="fas fa-star bleu-clair"></i><i
 											class="fas fa-star bleu-fonce"></i>
 									</div>
-
 								</figcaption>
-
 							</figure>
 						</a>
-
 						<a href="#">
 							<figure class="populaires">
 								<img src="photos-reservia/hebergement-hotel-tout-bleu-et-blanc-medium.jpg"
@@ -186,18 +122,13 @@
 								</figcaption>
 							</figure>
 						</a>
-
 					</div>
 				</div>
-
-
+				<!-- Hébergement -->
 				<div id="hebergementettitre">
-
-					<!-- Hébergement -->
 					<div>
 						<h4 class="titrehebergementmars"><b>Hébergements à Marseille</b></h4>
 					</div>
-
 					<div id="hebergement">
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement">
@@ -216,11 +147,6 @@
 								</figure>
 							</a>
 						</div>
-
-
-
-
-
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement"> <img
 										src="photos-reservia/hebergement-hotel-du-port-medium.jpg"
@@ -238,9 +164,6 @@
 								</figure>
 							</a>
 						</div>
-
-
-
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement"> <img
 										src="photos-reservia/hebergement-hotel-les-mouettes-medium.jpg"
@@ -258,8 +181,6 @@
 								</figure>
 							</a>
 						</div>
-
-
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement"> <img
 										src="photos-reservia/hebergement-hotel-de-la-mer-medium.jpg"
@@ -277,8 +198,6 @@
 								</figure>
 							</a>
 						</div>
-
-
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement"> <img
 										src="photos-reservia/hebergement-auberge-le-panier-medium.jpg"
@@ -296,8 +215,6 @@
 								</figure>
 							</a>
 						</div>
-
-
 						<div class="lien_cartes_hebergement"><a href="#">
 								<figure class="cartes_hebergement"> <img
 										src="photos-reservia/hebergement-chez-amina-medium.jpg"
@@ -315,14 +232,11 @@
 								</figure>
 							</a>
 						</div>
-
 					</div>
 					<div class="afficherplus"><a href="#">Afficher plus</a></div>
 				</div>
 			</section>
-
 			<h4 class="titreactivites">Activités à Marseille</h4>
-
 			<section id="section2">
 				<!-- Partie Activités-->
 				<div id="vieux-port">
@@ -335,7 +249,6 @@
 						</figure>
 					</a>
 				</div>
-
 				<div id="pomegues-frioul">
 					<a href="#">
 						<figure class="activites" id="pomegues"><img
@@ -345,7 +258,6 @@
 							</figcaption>
 						</figure>
 					</a>
-
 					<a href="#">
 						<figure class="activites" id="frioul"><img
 								src="photos-reservia/activites-iles-du-frioul-medium.jpg" alt="Îles du Frioul">
@@ -355,7 +267,6 @@
 						</figure>
 					</a>
 				</div>
-
 				<div id="calanques">
 					<a href="#">
 						<figure class="activites"><img
@@ -367,19 +278,16 @@
 						</figure>
 					</a>
 				</div>
-
 				<div id="garde-longchamp">
 					<a href="#">
 						<figure class="activites" id="garde"><img
 								src="photos-reservia/activites-notre-dame-de-le-garde-medium.jpg"
 								alt="Notre-Dame-de-la-Garde">
 							<figcaption>
-
 								<h4><b>Notre-Dame-de-la-Garde</b></h4>
 							</figcaption>
 						</figure>
 					</a>
-
 					<a href="#">
 						<figure class="activites" id="longchamp"><img
 								src="photos-reservia/activites-parc-longchamp-medium.jpg" alt="Parc Longchamp">
@@ -393,9 +301,7 @@
 				</div>
 			</section>
 		</main>
-
 	</div>
-
 	<!-- Pied de page-->
 	<footer id="footer">
 		<div>
@@ -419,7 +325,6 @@
 					<p>Soumettre votre hôtel</p>
 				</div>
 			</div>
-
 			<div class="footer-assistance">
 				<div class="titre-assistance">
 					<b>Assistance</b>
@@ -429,10 +334,8 @@
 					<p>Nous contacter</p>
 				</div>
 			</div>
-
 		</div>
 	</footer>
-
 </body>
 
 </html>
