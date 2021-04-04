@@ -13,13 +13,16 @@ a
 }
 
 
+
 .bloc_page
 {
+	
 	max-width: 1299px;
 	margin-left: 3%;
 	margin-right: 3%;
 	text-decoration: none;
 }
+
 
 
 header
@@ -189,11 +192,15 @@ form
 	
 }
 
+.search:hover
+{
+    cursor: pointer;
+}
+
 .fa-search
 {
 	padding-top: 32%;
 }
-
 
 .titrefiltres
 {
@@ -203,7 +210,9 @@ form
 
 .filtres
 {
+	display: flex;
 	margin-bottom: 3%;
+	margin-right: 25px;
 	border: 6px solid #F2F2F2;
     border-top-right-radius: 200px; 
 	border-bottom-right-radius: 200px;
@@ -211,13 +220,11 @@ form
 	border-bottom-left-radius: 200px;   
 }
 
-
-
-
 .filtres:hover
 {
 	background-color: black;	
 	color: #e97dff;
+	cursor: pointer;
 }
 
 
@@ -227,12 +234,12 @@ form
 	font-size: 3em;
 }
 
-.ecofamilles .filtres
+.ecofamilles b
 {
-	margin-right: 5%;
-	padding-right: 4%;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-right: 5%;
 }
-
 
 .romanimaux .filtres
 {
@@ -513,7 +520,6 @@ form
 {
     margin-bottom: 5%;
 	margin-top: 5%;
-	
 }
 
 
@@ -536,10 +542,15 @@ form
 
 
 
-@media  (min-width: 991px)
+
+
+
+
+
+@media  (min-width: 699px)
+
 {
 
-	
 header
 {
 	padding: 0;
@@ -676,7 +687,7 @@ form
 
 #formulaire
 {
-	width: 17%;
+	width: 25%;
 	height: 72px;
 	margin-top: 2%;
 }
@@ -693,11 +704,15 @@ form
 
 #loupe
 {
-	width: 10%;
+	width: 17%;
 	margin-top: 2%;
 }
 
-
+#rechercher
+{
+	display: none;
+	margin-top:5%;
+}
 #rechercher
 {
 	display: inline;
@@ -709,6 +724,11 @@ form
 	font-size: 1.1em;
 	color: white;
 	border-radius: 0 17px 17px 0;
+}
+
+#rechercher:hover
+{
+	cursor: pointer;
 }
 
 
@@ -731,7 +751,7 @@ form
 	display: flex;
 	margin-right: 15px;
 	border: 2px solid #F2F2F2;
-	padding-right: 0;
+	padding-right: 20px;
 }
 
 .filtres b
@@ -770,7 +790,6 @@ form
 {
 	display: inline-flex;
 	font-size: 0.33em;
-	margin-left: 4.5%;
 }
 
 .romanimaux .filtres
@@ -781,11 +800,11 @@ form
 .economique, .familial
 {
 	background-color: #DEEBFF;
-	width: 40px;
+	width: 45px;
 	height: 40px;
 	border-radius: 50%;
 	font-size: 15px;
-	border-radius: 50%;text-align: center;
+	text-align: center;
 	line-height: 40px;
 }	
 
@@ -839,7 +858,7 @@ form
 
 #populairesettitre
 {
-	width: 32%;
+	width: 45%;
 	background-color: #F2F2F2;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -923,7 +942,7 @@ form
 
 #hebergementettitre
 {
-	width: 68%;
+	width: 55%;
 	background-color: #F2F2F2;
 	margin-right: 4%;
 	padding-top: 2%;
@@ -948,9 +967,10 @@ form
 	
 .lien_cartes_hebergement
 {
-	width: 28%;
-	margin: auto;
+	width: 33%;
+	margin: 3%;
 	margin-bottom: 3%;
+	padding: 3%;
 }
 
  .cartes_hebergement 
@@ -1172,7 +1192,7 @@ div .activites
 	margin-top: 0;
 	margin-left: 0;
 	line-height: 1.6em;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 #footer b 
@@ -1180,7 +1200,683 @@ div .activites
 	padding-top: 5%;
 	padding-bottom: 3%;
 	margin-left: 0;
+	font-size: 0.8em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width: 1024px)
+
+
+{
+
+header
+{
+	padding: 0;
+}
+
+
+.S_inscrire a
+{
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 0;
+}
+
+
+.S_inscrire 
+{
+	padding-top: 1.5%;
+	padding-left: 2.2%;
+}
+
+
+#logoinscription
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2em;
+}
+
+#logo
+{
+	padding-left: 0;
+	padding-top: 3%;
+	width: 80px;
+	object-fit: contain;
+}
+
+
+
+#menu
+{
+	padding-top: 0;
+    border-bottom: none;
+}
+
+
+nav ul
+{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+
+nav ul li
+{
+	font-size: 1em;
+	border-top: solid 2px transparent;
+	border-bottom: none;
+	padding-top: 12%;
+	margin-right: 5px;
+}
+
+#menu li a
+{
+	padding-right: 22px;
+	padding-left: 22px;
+}	
+
+
+nav ul li:hover 
+{
+	border-top: solid 2px #0065fc;  
+	border-bottom: none;	
+}
+	
+#menu li a:hover
+{
+	color: #0065fc;
+}
+
+
+.trouvez
+{
+   margin-bottom: 4px;
+   display: inline;
+   font-size: 1.1em;
+}
+
+.enpleincentreville
+{
+	margin-top: 0;
+	margin-bottom: 0px;
 	font-size: 0.9em;
+	padding-top: 1%;
+	padding-bottom: 0;
+}
+
+
+form
+{
+	font-size: 1em;
+	margin-bottom: 0;
+}
+
+.map-marker
+{
+	height: 2.3em ;
+	width: 2em;
+	background-color: #F2F2F2;
+	padding-top: 11px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-radius: 30% 0 0 30%;
+	margin-top: 2%;
+}
+
+.fa-map-marker-alt
+{
+	padding-top: 0px;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.search
+{
+	display: none;
+}
+
+
+#formulaire
+{
+	width: 17%;
+	height: 72px;
+	margin-top: 2%;
+}
+
+
+.rechercher
+{
+	height: 2.9em ;
+	width: 100%;
+	font-size: 87%;
+	border: 2px solid #F2F2F2;
+}
+
+
+#loupe
+{
+	width: 10%;
+	margin-top: 2%;
+}
+
+
+#rechercher
+{
+	display: inline;
+	background-color: #0065FC;
+	margin-top: 0;
+	box-sizing: content-box;
+	height: 2.2em ;
+	width: 100%;
+	font-size: 1.1em;
+	color: white;
+	border-radius: 0 17px 17px 0;
+}
+
+#rechercher:hover
+{
+	cursor: pointer;
+}
+
+
+#filtres
+{
+	position: relative;
+}	
+
+.titrefiltres
+{
+	position: absolute;
+    font-size: 1em;
+	margin-right: 3%;
+	padding-top: 1.5%;
+}
+
+.filtres
+{
+	width: auto;
+	display: flex;
+	margin-right: 15px;
+	border: 2px solid #F2F2F2;
+	padding-right: 20px;
+}
+
+.filtres b
+{
+	display: flex;
+	padding-left: 0;
+}
+
+.romanimaux b
+{
+	padding-top: 12px;
+	padding-left: 9px;
+}
+
+.ecofamilles b
+{
+	padding-top: 12px;
+	padding-left: 9px;
+}
+
+
+.animaux span
+{
+	display: flex;
+}
+
+.ecofamilles
+{
+	display: inline-flex;
+	height: 100%;
+	font-size: 1em;
+	margin-left: 7%;
+}
+
+.romanimaux
+{
+	display: inline-flex;
+	font-size: 0.33em;
+}
+
+.romanimaux .filtres
+{
+	display: inline-flex;
+}
+
+.economique, .familial
+{
+	background-color: #DEEBFF;
+	width: 45px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 15px;
+	border-radius: 50%;text-align: center;
+	line-height: 40px;
+}	
+
+.romantique, .animaux
+{
+	background-color: #DEEBFF;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+.information
+{
+	display: inline-block;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
+.fa-info
+{
+	color: #0065FC;
+	font-size: 1em;
+	border: #f2f2f2 2px solid;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 1%;
+}
+
+.information
+{
+	font-size: 0.8em;
+}
+
+
+
+#section1
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: 1%;
+}
+
+#populairesettitre
+{
+	width: 32%;
+	background-color: #F2F2F2;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 2%;
+	border-radius: 15px 15px;
+}
+
+
+.titrehebergementpop
+{
+	width: auto;
+	background-color: #F2F2F2;
+	font-weight: bold;
+	padding-left: 3%;
+	font-size: 1.1em;
+}
+
+
+.fa-chart-line
+{
+	float: right;
+	padding-right: 3%;
+}
+
+
+#populaires
+{
+	background-color: #F2F2F2;
+}
+
+#populaires figure 
+{
+	width: 85%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+
+.populaires
+{
+	background-color: white;	
+	border: white 4px solid;
+	border-radius:  8%;
+}
+
+.populaires img
+{
+	height: 115px;
+	object-fit: cover;
+	min-width: 39%;
+	border-radius: 13% 0 0 13%;
+}
+
+.populaires figcaption
+{
+	padding-bottom: 0%;
+    font-size: 1em;
+}
+
+.populaires p
+{
+	font-size: 0.8em;
+}
+
+.populaires .etoiles_icones
+{
+	padding-top: 28%;
+}
+
+.populaires .bleu-clair
+{
+	font-size: 0.7em;
+}
+
+.populaires .bleu-fonce
+{
+	font-size: 0.7em;
+}
+
+
+#hebergementettitre
+{
+	width: 68%;
+	background-color: #F2F2F2;
+	margin-right: 4%;
+	padding-top: 2%;
+	border-radius: 15px;
+}
+
+.titrehebergementmars
+{
+	width: auto;
+	background-color: #F2F2F2;
+	font-size: 1.1em;
+	margin-left: 3%;
+}
+
+#hebergement
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+.lien_cartes_hebergement
+{
+	width: 28%;
+	margin: auto;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+ .cartes_hebergement 
+{
+	background-color: white;
+	width: 100%;	
+	margin: auto;
+	border: white 3px solid;
+	border-radius: 15px;
+	box-shadow: #e2dddd 3px 3px 7px;
+}
+
+.cartes_hebergement img
+{
+    height: 80px;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.cartes_hebergement figcaption
+{
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+
+.cartes_hebergement p
+{
+	font-size: 0.7em;
+	line-height: 60%;
+	color: black;
+}
+
+.cartes_hebergement .bleu-clair
+{
+	font-size: 0.7em;
+}
+
+.cartes_hebergement .bleu-fonce
+{
+    font-size: 0.7em;
+}
+
+.afficherplus
+{
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-left: 4%;
+	margin-top: 1%;
+	margin-left: 0;	
+}
+
+
+.titreactivites
+{
+	font-weight: bold;
+	margin-left: 0;
+	font-size: 1.1em;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}	
+
+#section2
+{
+	display: flex;
+	margin-bottom: 3%;
+	margin-top: 1%;
+	font-size: 0.8em;
+	margin-right: 0;
+}
+
+#section2 div
+{
+	margin-right: auto;
+	width: 25%;
+}
+
+div .activites
+{
+	width: 100%;
+	margin: 0;
+}
+
+.activites
+{
+	border-radius: 10px ;
+	box-shadow: #e2dddd 2px 2px 10px;
+	margin: 20%;
+}
+
+.activites img
+{
+    max-height: 320px;
+	width: 100%;
+	object-position: 50% 40%;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+.activites figcaption
+{
+	margin-left: 5%;
+	height: 30px;
+	font-size: 0.9em;
+}
+
+#vieux-port	 img
+{
+   height: 350px;
+	object-fit: cover;
+	
+}
+
+#pomegues-frioul
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+#pomegues img
+{
+    height: 150px;
+	object-fit: cover;
+	object-position: 50% 35%;
+}
+
+#frioul img
+{
+	height: 85px;
+	object-fit: cover;
+	object-position: 50% 15%;
+}
+
+#calanques
+{
+   padding-right: 3%;
+}
+
+#calanques  img
+{
+	height: 350px;
+	object-fit: cover;
+}
+
+#garde-longchamp
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: auto;
+}
+
+#garde-longchamp  img
+{
+    max-height: 118px;
+}
+
+
+
+#footer
+{    
+	padding-top: 0;	
+	padding-left: 0;
+	margin: auto;
+}	
+
+#footer > div
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1299px;
+	margin-left: 3%;
+	padding-right: 26%;
+}
+
+.footer-apropos
+{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+
+.footer-hebergements
+{
+	padding-top: 0;
+}
+
+.footer-assistance
+{
+	padding-top: 0;
+}
+
+.titre-apropos
+{
+	padding-top: 14%;
+	padding-bottom: 4%;
+}
+
+.titre-noshebergements
+{
+	padding-top: 21%;
+	padding-bottom: 4%;
+}
+
+.titre-assistance
+{
+	padding-top: 29%;
+	padding-bottom: 4%;
+}
+
+#footer p 
+{
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	line-height: 1.6em;
+	font-size: 0.8em;
+}
+
+#footer b 
+{
+	padding-top: 5%;
+	padding-bottom: 3%;
+	margin-left: 0;
+	font-size: 0.8em;
 }
 
 

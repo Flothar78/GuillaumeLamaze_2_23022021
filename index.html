@@ -6,14 +6,19 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="reservia.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 	<!--contenu de body moins le footer-->
 	<div class="bloc_page">
 		<!-- Contenu du haut de page avec logo nav titre-->
 		<header>
-			<div class="S_inscrire"><a href="#">
+			<div class="S_inscrire">
+				<a href="#">
 					<p>S'inscrire</p>
 				</a>
 			</div>
@@ -35,8 +40,11 @@
 						class="rechercher" />
 				</div>
 				<div id="loupe">
-					<div class="search"><i class="fas fa-search"></i></div>
+					<div class="search">
+						<i class="fas fa-search"></i>
+					</div>
 					<input type="submit" value="Rechercher" id="rechercher" />
+
 				</div>
 			</form>
 			<div id="filtres">
@@ -46,27 +54,41 @@
 					</b>
 				</div>
 				<div class="ecofamilles">
-					<div class="filtres"> <span class="economique"><i class="fas fa-money-bill-wave"></i></span>
-						<b>Economique</b>
+					<div><a href="#">
+							<div class="filtres"> <span class="economique"><i class="fas fa-money-bill-wave"></i></span>
+								<b>Economique</b>
+							</div>
+						</a>
 					</div>
-					<div class="filtres"><span class="familial"><i class="fas fa-child"></i></span><b>Familial</b></div>
+
+					<div><a href="#">
+							<div class="filtres"><span class="familial"><i
+										class="fas fa-child"></i></span><b>Familial</b>
+
+							</div>
+						</a>
+					</div>
 				</div>
 				<div class="romanimaux">
 					<div>
-						<div class="filtres"><span class="romantique"><i class="fas fa-heart"></i></span>
-							<b>Romantique</b>
-						</div>
+						<a href="#">
+							<div class="filtres"><span class="romantique"><i class="fas fa-heart"></i></span>
+								<b>Romantique</b>
+							</div>
+						</a>
 					</div>
-					<div class="filtres"><span class="animaux"><i class="fas fa-dog"></i></span>
-						<span><b>Animaux</b></span>
-						<span><b>autorisés</b></span>
-					</div>
+					<div><a href="#">
+							<div class="filtres"><span class="animaux"><i class="fas fa-dog"></i></span>
+								<span><b>Animaux</b></span>
+								<span><b>autorisés</b></span>
+							</div>
+						</a></div>
 				</div>
-			</div>
-			<div class="information">
-				<p><i class="fas fa-info"></i>
-					Plus de 500 logements sont disponibles dans cette ville</p>
-			</div>
+
+				<div class="information">
+					<p><i class="fas fa-info"></i>
+						Plus de 500 logements sont disponibles dans cette ville</p>
+				</div>
 		</header>
 		<!-- Partie principale et centrale avec photos-->
 		<main>
