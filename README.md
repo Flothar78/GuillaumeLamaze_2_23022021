@@ -1,5 +1,5 @@
 # GuillaumeLamaze_2_23022021
-
+##  Accéder au site web: https://flothar78.github.io/GuillaumeLamaze_2_23022021/
 Page web à développer selon maquettes desktop et mobiles.
 
 Responsive mobile/ tablette/ desktop = nécessaire / Choix breakpoint privilégié = 911px.
